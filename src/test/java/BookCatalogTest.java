@@ -48,15 +48,16 @@ public class BookCatalogTest {
 
 	//G
 	@Test
-	public void testFindBookWithExtraSpaces() {
-
+	public void testFindBookWithExtraSpaces() throws BookNotFoundException {
+		assertEquals(book1, bc.findBook("    Learning Java     "));
 	}
 
 	//VG
 	// This test should throw BookNotFoundException in order to pass.
 	@Test
 	public void testFindBookThatDoesntExist() throws BookNotFoundException {
-
+		assertThrows(BookNotFoundException.class, () ->
+					bc.findBook("Test exception"));
 	}
 
 }
