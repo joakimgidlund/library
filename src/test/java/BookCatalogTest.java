@@ -1,7 +1,11 @@
-import models.Book;
-import models.BookCatalog;
-import models.BookNotFoundException;
+import se.yrgo.library.models.Book;
+import se.yrgo.library.models.BookCatalog;
+import se.yrgo.library.models.BookNotFoundException;
 import org.junit.jupiter.api.Test;
+
+import java.util.Arrays;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class BookCatalogTest {
 
@@ -17,19 +21,29 @@ public class BookCatalogTest {
 	//G
 	@Test
 	public void testAddABook() {
-
+		Book testBook = new Book(
+				2,
+				"Lord of the Rings",
+				"J.R.R Tolkien",
+				"978-0544003415",
+				"",
+				1216);
+		BookCatalog testCatalog = new BookCatalog();
+		testCatalog.addBook(testBook);
+		Book[] testArray = testCatalog.getBookArray();
+		assertEquals(testBook, testArray[0]);
 	}
 
 	//G
 	@Test
-	public void testFindBook() {
-
+	public void testFindBook() throws BookNotFoundException {
+		assertEquals(book1, bc.findBook(book1.getTitle()));
 	}
 
 	//G
 	@Test
-	public void testFindBookIgnoringCase() {
-
+	public void testFindBookIgnoringCase() throws BookNotFoundException {
+		assertEquals(book1, bc.findBook("LEarnInG JaVA"));
 	}
 
 	//G
