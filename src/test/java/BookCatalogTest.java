@@ -2,9 +2,6 @@ import se.yrgo.library.models.Book;
 import se.yrgo.library.models.BookCatalog;
 import se.yrgo.library.models.BookNotFoundException;
 import org.junit.jupiter.api.Test;
-
-import java.util.Arrays;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class BookCatalogTest {
