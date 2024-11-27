@@ -28,6 +28,8 @@ public class BookCatalogTest {
 		BookCatalog testCatalog = new BookCatalog();
 		testCatalog.addBook(testBook);
 		Book[] testArray = testCatalog.getBookArray();
+
+		assertNotNull(testArray[0]);
 		assertEquals(testBook, testArray[0]);
 	}
 
