@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7fd1239-f57c-4519-bfe2-28cf7162df57" name="Changes" comment="Project built and finished. Javadoc generated.">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="b7fd1239-f57c-4519-bfe2-28cf7162df57" name="Changes" comment="Cleaned.">
+      <change afterPath="$PROJECT_DIR$/target/classes/se/yrgo/library/models/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/se/yrgo/library/models/BookCatalog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/se/yrgo/library/models/BookNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/se/yrgo/library/models/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/se/yrgo/library/models/Loan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/se/yrgo/library/models/LoanAlreadyExistsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/se/yrgo/library/models/LoanNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/se/yrgo/library/models/Material.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/se/yrgo/library/ui/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/se/yrgo/library/utilities/GenderType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/se/yrgo/library/utilities/LoanStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-goals.txt" beforeDir="false" afterPath="$PROJECT_DIR$/maven-goals.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +68,13 @@
     "Maven.library [compile].executor": "Run",
     "Maven.library [org.apache.maven.plugins:maven-javadoc-plugin:3.11.1:fix].executor": "Run",
     "Maven.library [org.apache.maven.plugins:maven-javadoc-plugin:3.11.1:javadoc].executor": "Run",
+    "Maven.library [org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources].executor": "Run",
+    "Maven.library [org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources].executor": "Run",
     "Maven.library [package].executor": "Run",
+    "Maven.library [site].executor": "Run",
     "Maven.library [test].executor": "Run",
+    "Maven.library [validate].executor": "Run",
+    "Maven.library [verify].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -66,6 +85,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -152,7 +174,7 @@
       <updated>1732536849290</updated>
       <workItem from="1732536850355" duration="6354000" />
       <workItem from="1732657932326" duration="4733000" />
-      <workItem from="1732805517479" duration="6258000" />
+      <workItem from="1732805517479" duration="7480000" />
     </task>
     <task id="LOCAL-00001" summary="Project created.">
       <option name="closed" value="true" />
@@ -242,7 +264,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732827825672</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Sources.">
+      <option name="closed" value="true" />
+      <created>1732828021353</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732828021353</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Cleaned.">
+      <option name="closed" value="true" />
+      <created>1732828316726</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732828316726</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +320,8 @@
     <MESSAGE value="LoanTest written and finished." />
     <MESSAGE value="Cleaned up." />
     <MESSAGE value="Project built and finished. Javadoc generated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Project built and finished. Javadoc generated." />
+    <MESSAGE value="Sources." />
+    <MESSAGE value="Cleaned." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned." />
   </component>
 </project>
