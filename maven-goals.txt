@@ -1,5 +1,7 @@
 Följande maven-goals användes för att bygga projektet:
 
+mvn clean validate compile test package javadoc:javadoc
+
 clean
 tar bort alla filer som genererades förra gången projektet byggdes,
 för att börja från 0 och bli av med onödiga filer.
