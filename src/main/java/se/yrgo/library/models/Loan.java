@@ -7,6 +7,11 @@ package se.yrgo.library.models;
 import java.time.LocalDate;
 import se.yrgo.library.utilities.LoanStatus;
 
+/**
+ * <p>Loan class.</p>
+ *
+ * @author jocke
+ */
 public class Loan {
 
 private int ID;
@@ -17,6 +22,13 @@ private LocalDate dueDate;
 //private Date returnDate;
 private LoanStatus status;
 	
+/**
+ * <p>Constructor for Loan.</p>
+ *
+ * @param iD a int
+ * @param customer a {@link se.yrgo.library.models.Customer} object
+ * @param book a {@link se.yrgo.library.models.Book} object
+ */
 public Loan(int iD, Customer customer, Book book) {
   super();
   ID = iD;
@@ -26,12 +38,14 @@ public Loan(int iD, Customer customer, Book book) {
   status = LoanStatus.CURRENT;
 }
 
+/** {@inheritDoc} */
 @Override
 public String toString() {
   return "Loan [ID=" + ID + ", customer=" + customer.getMailingName() + ", book=" + book.getTitle()
     + "]";
 }
 
+/** {@inheritDoc} */
 @Override
 public int hashCode() {
   final int prime = 31;
@@ -40,6 +54,7 @@ public int hashCode() {
   return result;
 }
 
+/** {@inheritDoc} */
 @Override
 public boolean equals(Object obj) {
   if (this == obj)
@@ -54,22 +69,45 @@ public boolean equals(Object obj) {
   return true;
 }
 
+/**
+ * <p>Getter for the field <code>customer</code>.</p>
+ *
+ * @return a {@link se.yrgo.library.models.Customer} object
+ */
 public Customer getCustomer() {
   return customer;
 }
 
+/**
+ * <p>Getter for the field <code>book</code>.</p>
+ *
+ * @return a {@link se.yrgo.library.models.Book} object
+ */
 public Book getBook() {
   return book;
 }
 
+/**
+ * <p>Getter for the field <code>dueDate</code>.</p>
+ *
+ * @return a {@link java.time.LocalDate} object
+ */
 public LocalDate getDueDate() {
   return dueDate;
 }
 	
+/**
+ * <p>Getter for the field <code>status</code>.</p>
+ *
+ * @return a {@link se.yrgo.library.utilities.LoanStatus} object
+ */
 public LoanStatus getStatus() {
   return status;
 }
 
+/**
+ * <p>endLoan.</p>
+ */
 public void endLoan() {
   //returnDate = new Date();
   status = LoanStatus.HISTORIC;

@@ -5,6 +5,11 @@ import java.util.GregorianCalendar;
 import se.yrgo.library.utilities.GenderType;
 
 
+/**
+ * <p>Customer class.</p>
+ *
+ * @author jocke
+ */
 public class Customer {
 
 	private String title;
@@ -18,6 +23,18 @@ public class Customer {
 	private boolean isvalid;
 	private Date expiryDate;
 
+	/**
+	 * <p>Constructor for Customer.</p>
+	 *
+	 * @param title a {@link java.lang.String} object
+	 * @param firstName a {@link java.lang.String} object
+	 * @param surname a {@link java.lang.String} object
+	 * @param address a {@link java.lang.String} object
+	 * @param phoneNumber a {@link java.lang.String} object
+	 * @param email a {@link java.lang.String} object
+	 * @param customerNumber a int
+	 * @param gender a {@link se.yrgo.library.utilities.GenderType} object
+	 */
 	public Customer(String title, String firstName, String surname, String address,
 			String phoneNumber, String email, int customerNumber, GenderType gender) {
 
@@ -33,13 +50,28 @@ public class Customer {
 		this.expiryDate = gCal.getTime();
 	}
 	
+	/**
+	 * <p>Getter for the field <code>firstName</code>.</p>
+	 *
+	 * @return a {@link java.lang.String} object
+	 */
 	public String getFirstName() {
 		return firstName;
 	}
 	
+	/**
+	 * <p>Getter for the field <code>surname</code>.</p>
+	 *
+	 * @return a {@link java.lang.String} object
+	 */
 	public String getSurname() {
 		return surname;
 	}
+	/**
+	 * <p>Setter for the field <code>surname</code>.</p>
+	 *
+	 * @param surname a {@link java.lang.String} object
+	 */
 	public void setSurname(String surname) {
 		this.surname = surname;
 	}
@@ -50,6 +82,11 @@ public class Customer {
 		this.surname = surname;
 	}
 	
+	/**
+	 * <p>getMailingName.</p>
+	 *
+	 * @return a {@link java.lang.String} object
+	 */
 	public String getMailingName() {
 		StringBuilder sb = new StringBuilder(title);
 		sb.append(" ");
@@ -60,19 +97,31 @@ public class Customer {
 		return sb.toString(); 
 	}
 	
+	/**
+	 * <p>Getter for the field <code>gender</code>.</p>
+	 *
+	 * @return a {@link se.yrgo.library.utilities.GenderType} object
+	 */
 	public GenderType getGender() {
 		return gender;
 	}
 
+	/**
+	 * <p>Getter for the field <code>expiryDate</code>.</p>
+	 *
+	 * @return a {@link java.util.Date} object
+	 */
 	public Date getExpiryDate() {
 		return expiryDate;
 	}
 
+	/** {@inheritDoc} */
 	@Override
 	public String toString() {
 		return getMailingName();
 	}
 
+	/** {@inheritDoc} */
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -93,6 +142,7 @@ public class Customer {
 		return result;
 	}
 
+	/** {@inheritDoc} */
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

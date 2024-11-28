@@ -6,8 +6,18 @@ import se.yrgo.library.models.Customer;
 import se.yrgo.library.models.Loan;
 import se.yrgo.library.utilities.GenderType;
 
+/**
+ * <p>Main class.</p>
+ *
+ * @author jocke
+ */
 public class Main {
 
+	/**
+	 * <p>main.</p>
+	 *
+	 * @param args an array of {@link java.lang.String} objects
+	 */
 	public static void main(String[] args) {
 
 		BookCatalog bookCatalog = new BookCatalog();

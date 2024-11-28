@@ -22,7 +22,7 @@ class BookTest {
 				"",
 				1216);
 
-		assertEquals(book1, book2);
+		assertEquals(book1, book2, "Two equal books in different variables are the same.");
 	}
 
 	//G
@@ -43,7 +43,8 @@ class BookTest {
 				"",
 				226);
 
-		assertNotEquals(book1, book2);
+		assertNotEquals(book1, book2,
+				"Make sure two different books are not the same.");
 	}
 
 }

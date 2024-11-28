@@ -30,7 +30,8 @@ public class LoanTest {
                 GenderType.MALE);
         Loan loan = new Loan(1, customer, book1);
 
-        assertNotNull(loan.getDueDate());
-        assertTrue(LocalDate.now().isBefore(loan.getDueDate()));
+        assertNotNull(loan.getDueDate(), "Date is assigned on loan construction.");
+        assertTrue(LocalDate.now().isBefore(loan.getDueDate()),
+                    "Added date is after today.");
     }
 }

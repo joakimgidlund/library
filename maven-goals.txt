@@ -1,0 +1,19 @@
+Följande maven-goals användes för att bygga projektet:
+
+clean
+tar bort alla filer som genererades förra gången projektet byggdes,
+för att börja från 0 och bli av med onödiga filer.
+
+compile
+kompilerar java-koden i projektet och skapar .class-filerna i "target"-mappen.
+
+test
+kör testkod i som finns i java-källkoden. Beror på vilket ramverk
+man använder, i detta fall kör den JUnit tester som finns i test-mappen.
+
+javadoc:javadoc
+genererar HTML-sidor som beskriver koden i projektet enligt javadoc-standard.
+
+package
+paketerar den kompilerade koden i en körbar fil, i detta fall en JAR-fil.
+
