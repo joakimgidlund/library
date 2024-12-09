@@ -8,7 +8,7 @@
 -source
 '21'
 -sourcepath
-'C:/Java-projects/library/src/main/java'
+'C:/Java-projects/library/src/main/java;C:/Java-projects/library/target/generated-sources/annotations'
 -author
 -bottom
 'Copyright &#169; 2024. All rights reserved.'
@@ -28,24 +28,25 @@ se.yrgo.library.models
 se.yrgo.library.ui
 se.yrgo.library.utilities
 C:\Java-projects\library\src\main\java = 1732538894311
-C:\Java-projects\library\target\reports\apidocs\allclasses-index.html = 1732829166915
-C:\Java-projects\library\target\reports\apidocs\allpackages-index.html = 1732829166921
-C:\Java-projects\library\target\reports\apidocs\copy.svg = 1732829166986
-C:\Java-projects\library\target\reports\apidocs\element-list = 1732829166596
-C:\Java-projects\library\target\reports\apidocs\help-doc.html = 1732829166982
-C:\Java-projects\library\target\reports\apidocs\index-all.html = 1732829166942
-C:\Java-projects\library\target\reports\apidocs\index.html = 1732829166861
-C:\Java-projects\library\target\reports\apidocs\link.svg = 1732829166987
-C:\Java-projects\library\target\reports\apidocs\member-search-index.js = 1732829166925
-C:\Java-projects\library\target\reports\apidocs\module-search-index.js = 1732829166922
-C:\Java-projects\library\target\reports\apidocs\overview-summary.html = 1732829166958
-C:\Java-projects\library\target\reports\apidocs\overview-tree.html = 1732829166840
-C:\Java-projects\library\target\reports\apidocs\package-search-index.js = 1732829166923
-C:\Java-projects\library\target\reports\apidocs\script.js = 1732829166985
-C:\Java-projects\library\target\reports\apidocs\search-page.js = 1732829166990
-C:\Java-projects\library\target\reports\apidocs\search.html = 1732829166950
-C:\Java-projects\library\target\reports\apidocs\search.js = 1732829166989
-C:\Java-projects\library\target\reports\apidocs\serialized-form.html = 1732829166748
-C:\Java-projects\library\target\reports\apidocs\stylesheet.css = 1732829166983
-C:\Java-projects\library\target\reports\apidocs\tag-search-index.js = 1732829166927
-C:\Java-projects\library\target\reports\apidocs\type-search-index.js = 1732829166924
+C:\Java-projects\library\target\generated-sources\annotations = 1733740605327
+C:\Java-projects\library\target\reports\apidocs\allclasses-index.html = 1733740616400
+C:\Java-projects\library\target\reports\apidocs\allpackages-index.html = 1733740616400
+C:\Java-projects\library\target\reports\apidocs\copy.svg = 1733740616478
+C:\Java-projects\library\target\reports\apidocs\element-list = 1733740616180
+C:\Java-projects\library\target\reports\apidocs\help-doc.html = 1733740616463
+C:\Java-projects\library\target\reports\apidocs\index-all.html = 1733740616447
+C:\Java-projects\library\target\reports\apidocs\index.html = 1733740616368
+C:\Java-projects\library\target\reports\apidocs\link.svg = 1733740616478
+C:\Java-projects\library\target\reports\apidocs\member-search-index.js = 1733740616416
+C:\Java-projects\library\target\reports\apidocs\module-search-index.js = 1733740616416
+C:\Java-projects\library\target\reports\apidocs\overview-summary.html = 1733740616463
+C:\Java-projects\library\target\reports\apidocs\overview-tree.html = 1733740616352
+C:\Java-projects\library\target\reports\apidocs\package-search-index.js = 1733740616416
+C:\Java-projects\library\target\reports\apidocs\script.js = 1733740616478
+C:\Java-projects\library\target\reports\apidocs\search-page.js = 1733740616478
+C:\Java-projects\library\target\reports\apidocs\search.html = 1733740616463
+C:\Java-projects\library\target\reports\apidocs\search.js = 1733740616478
+C:\Java-projects\library\target\reports\apidocs\serialized-form.html = 1733740616258
+C:\Java-projects\library\target\reports\apidocs\stylesheet.css = 1733740616463
+C:\Java-projects\library\target\reports\apidocs\tag-search-index.js = 1733740616416
+C:\Java-projects\library\target\reports\apidocs\type-search-index.js = 1733740616416

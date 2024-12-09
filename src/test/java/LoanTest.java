@@ -31,7 +31,7 @@ public class LoanTest {
         Loan loan = new Loan(1, customer, book1);
 
         assertNotNull(loan.getDueDate(), "Date is assigned on loan construction.");
-        assertTrue(LocalDate.now().isBefore(loan.getDueDate()),
-                    "Added date is after today.");
+        assertTrue(loan.getDueDate().isEqual(LocalDate.now().plusDays(14)),
+                    "Added date is 14 days after today.");
     }
 }
